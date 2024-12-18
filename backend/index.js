@@ -29,7 +29,7 @@ app.use(cookieParser());
 app.use("/uploads", express.static(path.join(process.cwd(), "public/uploads")));
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Ensure this matches your React app's URL
+  origin: "https://joboholic.onrender.com", // Ensure this matches your React app's URL
   credentials: true, // Allow cookies to be sent
 };
 app.use(cors(corsOptions));

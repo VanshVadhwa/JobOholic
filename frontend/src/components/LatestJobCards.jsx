@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 const LatestJobCards = ({ job }) => {
   const navigate = useNavigate();
-  const backendUrl = 'http://localhost:3000'; // Your backend URL
+  const backendUrl = 'https://joboholic.onrender.com'; // Your backend URL
 
   // Helper function to get the company logo URL
   const getLogoUrl = (logoPath) => {

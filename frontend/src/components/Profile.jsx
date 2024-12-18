@@ -15,7 +15,7 @@ const Profile = () => {
     const [open, setOpen] = useState(false);
     const { user } = useSelector(store => store.auth);
 
-    const backendUrl = 'http://localhost:3000';
+    const backendUrl = 'https://joboholic.onrender.com';
 
     const renderSkills = () => {
         if (!user?.profile?.skills?.length) {

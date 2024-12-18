@@ -11,7 +11,7 @@ const CompaniesTable = () => {
     const [filterCompany, setFilterCompany] = useState(companies);
     const navigate = useNavigate();
 
-    const backendUrl = 'http://localhost:3000'; // Your backend URL
+    const backendUrl = 'https://joboholic.onrender.com'; // Your backend URL
 
     useEffect(() => {
         const filteredCompany = companies.length >= 0 && companies.filter((company) => {

@@ -8,7 +8,7 @@ import { APPLICATION_API_END_POINT } from '@/utils/constant';
 import axios from 'axios';
 
 const shortlistingStatus = ["Accepted", "Rejected"];
-const backendUrl = 'http://localhost:3000'; // Define your backend URL here
+const backendUrl = 'https://joboholic.onrender.com'; // Define your backend URL here
 
 const ApplicantsTable = () => {
     const { applicants } = useSelector(store => store.application);

@@ -15,7 +15,7 @@ const Navbar = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
-    const backendUrl = 'http://localhost:3000';
+    const backendUrl = 'https://joboholic.onrender.com';
 
     const logoutHandler = async () => {
         try {
